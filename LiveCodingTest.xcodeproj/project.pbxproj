@@ -14,7 +14,19 @@
 		3AB1A2C9243B90CA0018DA07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB1A2C8243B90CA0018DA07 /* Assets.xcassets */; };
 		3AB1A2CC243B90CA0018DA07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB1A2CA243B90CA0018DA07 /* LaunchScreen.storyboard */; };
 		3AB1A2D4243B917B0018DA07 /* Challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1A2D3243B917B0018DA07 /* Challenges.swift */; };
+		3AB1A2F8243BA0560018DA07 /* LiveCodingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1A2F7243BA0560018DA07 /* LiveCodingTestTests.swift */; };
+		3AB1A300243BAE870018DA07 /* Challenge5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1A2FF243BAE870018DA07 /* Challenge5.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB1A2FA243BA0560018DA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB1A2B4243B90C60018DA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB1A2BB243B90C60018DA07;
+			remoteInfo = LiveCodingTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3AB1A2BC243B90C60018DA07 /* LiveCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +38,21 @@
 		3AB1A2CB243B90CA0018DA07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB1A2CD243B90CA0018DA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB1A2D3243B917B0018DA07 /* Challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenges.swift; sourceTree = "<group>"; };
+		3AB1A2F5243BA0560018DA07 /* LiveCodingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveCodingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB1A2F7243BA0560018DA07 /* LiveCodingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCodingTestTests.swift; sourceTree = "<group>"; };
+		3AB1A2F9243BA0560018DA07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB1A2FF243BAE870018DA07 /* Challenge5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3AB1A2B9243B90C60018DA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB1A2F2243BA0560018DA07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				3AB1A2BE243B90C60018DA07 /* LiveCodingTest */,
+				3AB1A2F6243BA0560018DA07 /* LiveCodingTestTests */,
 				3AB1A2BD243B90C60018DA07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				3AB1A2BC243B90C60018DA07 /* LiveCodingTest.app */,
+				3AB1A2F5243BA0560018DA07 /* LiveCodingTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,8 +91,18 @@
 				3AB1A2CA243B90CA0018DA07 /* LaunchScreen.storyboard */,
 				3AB1A2CD243B90CA0018DA07 /* Info.plist */,
 				3AB1A2D3243B917B0018DA07 /* Challenges.swift */,
+				3AB1A2FF243BAE870018DA07 /* Challenge5.swift */,
 			);
 			path = LiveCodingTest;
+			sourceTree = "<group>";
+		};
+		3AB1A2F6243BA0560018DA07 /* LiveCodingTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB1A2F7243BA0560018DA07 /* LiveCodingTestTests.swift */,
+				3AB1A2F9243BA0560018DA07 /* Info.plist */,
+			);
+			path = LiveCodingTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +125,24 @@
 			productReference = 3AB1A2BC243B90C60018DA07 /* LiveCodingTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3AB1A2F4243BA0560018DA07 /* LiveCodingTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB1A2FC243BA0560018DA07 /* Build configuration list for PBXNativeTarget "LiveCodingTestTests" */;
+			buildPhases = (
+				3AB1A2F1243BA0560018DA07 /* Sources */,
+				3AB1A2F2243BA0560018DA07 /* Frameworks */,
+				3AB1A2F3243BA0560018DA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB1A2FB243BA0560018DA07 /* PBXTargetDependency */,
+			);
+			name = LiveCodingTestTests;
+			productName = LiveCodingTestTests;
+			productReference = 3AB1A2F5243BA0560018DA07 /* LiveCodingTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +155,10 @@
 				TargetAttributes = {
 					3AB1A2BB243B90C60018DA07 = {
 						CreatedOnToolsVersion = 11.4;
+					};
+					3AB1A2F4243BA0560018DA07 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 3AB1A2BB243B90C60018DA07;
 					};
 				};
 			};
@@ -119,6 +176,7 @@
 			projectRoot = "";
 			targets = (
 				3AB1A2BB243B90C60018DA07 /* LiveCodingTest */,
+				3AB1A2F4243BA0560018DA07 /* LiveCodingTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +192,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AB1A2F3243BA0560018DA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,11 +209,28 @@
 				3AB1A2C4243B90C60018DA07 /* ViewController.swift in Sources */,
 				3AB1A2D4243B917B0018DA07 /* Challenges.swift in Sources */,
 				3AB1A2C0243B90C60018DA07 /* AppDelegate.swift in Sources */,
+				3AB1A300243BAE870018DA07 /* Challenge5.swift in Sources */,
 				3AB1A2C2243B90C60018DA07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3AB1A2F1243BA0560018DA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB1A2F8243BA0560018DA07 /* LiveCodingTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB1A2FB243BA0560018DA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB1A2BB243B90C60018DA07 /* LiveCodingTest */;
+			targetProxy = 3AB1A2FA243BA0560018DA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3AB1A2C5243B90C60018DA07 /* Main.storyboard */ = {
@@ -204,6 +286,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -264,6 +347,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -289,6 +373,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LiveCodingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +392,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LiveCodingTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,6 +403,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AB1A2FD243BA0560018DA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveCodingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.flores.tutorial.LiveCodingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCodingTest.app/LiveCodingTest";
+			};
+			name = Debug;
+		};
+		3AB1A2FE243BA0560018DA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LiveCodingTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugo.flores.tutorial.LiveCodingTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCodingTest.app/LiveCodingTest";
 			};
 			name = Release;
 		};
@@ -335,6 +461,15 @@
 			buildConfigurations = (
 				3AB1A2D1243B90CA0018DA07 /* Debug */,
 				3AB1A2D2243B90CA0018DA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB1A2FC243BA0560018DA07 /* Build configuration list for PBXNativeTarget "LiveCodingTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB1A2FD243BA0560018DA07 /* Debug */,
+				3AB1A2FE243BA0560018DA07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
